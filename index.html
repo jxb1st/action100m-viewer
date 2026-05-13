@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Action100M Benchmark Candidates</title>
+<style>
+:root {
+  --bg: #0f1419;
+  --panel: #1a2129;
+  --panel-2: #222b35;
+  --border: #2d3640;
+  --text: #e6e9ed;
+  --muted: #8a949e;
+  --accent: #4dabf7;
+  --good: #51cf66;
+  --warn: #ffd43b;
+  --bad: #ff6b6b;
+  --kitchen: #ff922b;
+  --manipulation: #4dabf7;
+  --navigation: #cc5de8;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  font-size: 14px;
+  line-height: 1.55;
+}
+header {
+  padding: 10px 18px;
+  background: var(--panel);
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+header h1 {
+  margin: 0;
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--accent);
+}
+.control { display: flex; align-items: center; gap: 6px; }
+.control label { color: var(--muted); font-size: 12px; }
+select, input, button {
+  background: var(--bg);
+  color: var(--text);
+  border: 1px solid var(--border);
+  padding: 5px 9px;
+  font-family: inherit;
+  font-size: 13px;
+  border-radius: 4px;
+}
+button { cursor: pointer; }
+button:hover:not(:disabled) { background: var(--panel-2); }
+button:disabled { opacity: 0.4; cursor: not-allowed; }
+input[type=number] { width: 70px; }
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  background: var(--panel-2);
+  border: 1px solid var(--border);
+  color: var(--muted);
+  cursor: pointer;
+  user-select: none;
+}
+.chip.active.kitchen { background: var(--kitchen); color: #1a1004; border-color: var(--kitchen); }
+.chip.active.manipulation { background: var(--manipulation); color: #061722; border-color: var(--manipulation); }
+.chip.active.navigation { background: var(--navigation); color: #1a0822; border-color: var(--navigation); }
+.chip.active.all { background: var(--accent); color: #061722; border-color: var(--accent); }
+.kb { font-family: monospace; padding: 1px 5px; background: var(--panel-2); border-radius: 3px; color: var(--muted); }
+
+main {
+  display: grid;
+  grid-template-columns: minmax(420px, 1fr) minmax(0, 1.2fr);
+  gap: 14px;
+  padding: 14px;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+.col { display: flex; flex-direction: column; gap: 14px; min-width: 0; }
+.panel {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 14px;
+  min-width: 0;
+}
+.panel h2 {
+  margin: 0 0 10px;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  color: var(--muted);
+  font-weight: 600;
+  display: flex; align-items: center; gap: 8px;
+}
+.panel h2 .right { margin-left: auto; font-weight: 400; }
+.video-wrap {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  background: #000;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.video-wrap iframe, .video-wrap video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  background: #000;
+}
+.title-line {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text);
+  margin-top: 8px;
+}
+.subtitle-line {
+  font-size: 12px;
+  color: var(--muted);
+  margin-top: 3px;
+  display: flex; gap: 8px; flex-wrap: wrap;
+}
+.subtitle-line a { color: var(--accent); text-decoration: none; }
+.subtitle-line a:hover { text-decoration: underline; }
+.domain-badge {
+  display: inline-block;
+  padding: 1px 7px;
+  border-radius: 3px;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.domain-badge.kitchen { background: var(--kitchen); color: #1a1004; }
+.domain-badge.manipulation { background: var(--manipulation); color: #061722; }
+.domain-badge.navigation { background: var(--navigation); color: #1a0822; }
+.good-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 3px;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  background: var(--good);
+  color: #06210e;
+}
+
+.field { margin-bottom: 8px; }
+.field-label {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--muted);
+  margin-bottom: 2px;
+}
+.field-value {
+  font-size: 13px;
+  word-break: break-word;
+  white-space: pre-wrap;
+}
+.field-value.muted { color: var(--muted); font-style: italic; }
+.field-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 8px;
+}
+.event-list { margin: 4px 0 0 0; padding-left: 20px; }
+.event-list li { margin-bottom: 2px; }
+
+.tree-segment {
+  border-left: 2px solid var(--border);
+  padding: 6px 0 6px 12px;
+  margin-bottom: 6px;
+}
+.tree-segment.has-action { border-left-color: var(--accent); }
+.tree-segment.level-1 { border-left-color: var(--good); }
+.tree-segment.level-2 { border-left-color: var(--warn); }
+.tree-segment-head {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  font-size: 12px;
+  cursor: pointer;
+  user-select: none;
+}
+.tree-segment-head:hover { color: var(--accent); }
+.tree-time {
+  font-family: monospace;
+  color: var(--accent);
+  font-weight: 600;
+  white-space: nowrap;
+}
+.tree-action {
+  font-weight: 600;
+  color: var(--text);
+  flex: 1;
+  min-width: 0;
+}
+.tree-caption {
+  margin-top: 4px;
+  color: var(--muted);
+  font-size: 12px;
+  white-space: pre-wrap;
+}
+.tree-toggle {
+  font-family: monospace;
+  color: var(--muted);
+  font-size: 11px;
+  width: 14px;
+  display: inline-block;
+}
+.tree-collapsed > .tree-children { display: none; }
+.tree-children { margin-top: 4px; }
+
+details {
+  margin: 6px 0;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: var(--bg);
+}
+details > summary {
+  padding: 6px 10px;
+  cursor: pointer;
+  font-size: 12px;
+  color: var(--muted);
+  user-select: none;
+}
+details[open] > summary { border-bottom: 1px solid var(--border); color: var(--text); }
+details > .details-body {
+  padding: 10px;
+  font-family: "SFMono-Regular", Consolas, monospace;
+  font-size: 11.5px;
+  color: var(--text);
+  white-space: pre-wrap;
+  word-break: break-word;
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.loading { padding: 40px; text-align: center; color: var(--muted); }
+.error { padding: 14px; color: var(--bad); border: 1px solid var(--bad); border-radius: 4px; }
+
+.banner {
+  background: rgba(77, 171, 247, 0.08);
+  border-bottom: 1px solid var(--border);
+  padding: 8px 18px;
+  font-size: 12px;
+  color: var(--muted);
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.banner strong { color: var(--text); }
+.banner a { color: var(--accent); text-decoration: none; }
+.banner a:hover { text-decoration: underline; }
+.banner .back-link { font-weight: 500; }
+.video-source-toggle {
+  font-size: 11px;
+  color: var(--muted);
+  margin-top: 4px;
+}
+.video-source-toggle a { color: var(--accent); text-decoration: none; cursor: pointer; }
+.video-source-toggle a:hover { text-decoration: underline; }
+
+@media (max-width: 1024px) {
+  main { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+
+<div class="banner">
+  <a href="https://jxb1st.github.io/datasets/" class="back-link">&larr; Dataset panel</a>
+  <span>Showing <strong id="banner-count">168</strong> benchmark candidates auto-filtered from the
+    <a href="https://huggingface.co/datasets/facebook/Action100M-preview" target="_blank">Action100M-preview</a>
+    (HowTo100M source). Each video was kept by GPT-4o judging its hierarchical Action100M
+    captions — see the "LLM Prompt" panel for the exact prompt.
+  </span>
+</div>
+
+<header>
+  <h1>Action100M → Benchmark Candidates</h1>
+  <div class="control" id="filter-chips">
+    <label>Domain</label>
+    <span class="chip all active" data-domain="all">All</span>
+    <span class="chip kitchen" data-domain="kitchen">Kitchen</span>
+    <span class="chip manipulation" data-domain="manipulation">Manipulation</span>
+    <span class="chip navigation" data-domain="navigation">Navigation</span>
+  </div>
+  <div class="control">
+    <label>Sample</label>
+    <input type="number" id="sample-input" min="0" value="0">
+    <span id="sample-counter" style="color:var(--muted);font-size:12px;">/ 0</span>
+  </div>
+  <div class="control">
+    <button id="prev-btn">&larr; Prev</button>
+    <button id="next-btn">Next &rarr;</button>
+  </div>
+  <div class="control">
+    <label>Jump</label>
+    <select id="uid-select"></select>
+  </div>
+  <div style="margin-left:auto;color:var(--muted);font-size:11px;">
+    <span class="kb">&larr;</span> <span class="kb">&rarr;</span> navigate · click time → seek video
+  </div>
+</header>
+
+<main id="main">
+  <div class="col">
+    <section class="panel" id="video-panel">
+      <h2>
+        <span>Source Video</span>
+        <span class="right" id="video-uid"></span>
+      </h2>
+      <div class="video-wrap" id="video-wrap"></div>
+      <div class="title-line" id="video-title"></div>
+      <div class="subtitle-line" id="video-subtitle"></div>
+      <div class="video-source-toggle" id="video-source-toggle"></div>
+    </section>
+
+    <section class="panel" id="llm-panel">
+      <h2>LLM Judgement <span class="right" id="llm-model"></span></h2>
+      <div id="llm-content"></div>
+    </section>
+
+    <section class="panel" id="prompt-panel">
+      <h2>LLM Prompt (sent to GPT)</h2>
+      <details>
+        <summary>System prompt</summary>
+        <div class="details-body" id="prompt-system"></div>
+      </details>
+      <details>
+        <summary>User message (compact video summary)</summary>
+        <div class="details-body" id="prompt-user"></div>
+      </details>
+      <details>
+        <summary>Raw LLM output JSON</summary>
+        <div class="details-body" id="prompt-output"></div>
+      </details>
+    </section>
+  </div>
+
+  <div class="col">
+    <section class="panel" id="meta-panel">
+      <h2>Metadata (from YouTube)</h2>
+      <div id="meta-content"></div>
+    </section>
+
+    <section class="panel" id="tree-panel">
+      <h2>
+        <span>Tree-of-Captions (ground truth from Action100M)</span>
+        <span class="right" id="tree-stats"></span>
+      </h2>
+      <div id="tree-content"></div>
+    </section>
+  </div>
+</main>
+
+<script>
+(function () {
+"use strict";
+
+const $ = id => document.getElementById(id);
+const escape = s => s == null ? "" : String(s).replace(/[&<>"']/g, c => (
+  { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]
+));
+const fmtTime = sec => {
+  const s = Math.max(0, Math.floor(sec || 0));
+  const m = Math.floor(s / 60);
+  return `${m}:${String(s % 60).padStart(2, "0")}`;
+};
+const cache = {};
+const state = { all: [], filtered: [], idx: 0, domain: "all", localVideos: new Set(), useLocal: true };
+
+function renderVideo(uid, useLocal, startSec) {
+  const wrap = $("video-wrap");
+  if (useLocal) {
+    wrap.innerHTML = `<video id="player" controls preload="metadata" src="videos/${uid}.mp4#t=${startSec || 0}"></video>`;
+    if (startSec) {
+      const v = $("player");
+      v.addEventListener("loadedmetadata", () => { v.currentTime = startSec; v.play(); }, { once: true });
+    }
+  } else {
+    const auto = startSec ? "&autoplay=1" : "";
+    wrap.innerHTML = `<iframe id="player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen src="https://www.youtube.com/embed/${uid}?start=${Math.floor(startSec||0)}${auto}"></iframe>`;
+  }
+}
+
+function seekPlayer(uid, t) {
+  const p = $("player");
+  if (p && p.tagName === "VIDEO") {
+    p.currentTime = t;
+    p.play().catch(() => {});
+  } else {
+    // iframe → reload with start
+    renderVideo(uid, false, t);
+  }
+}
+
+async function loadIndex() {
+  const r = await fetch("index.json");
+  state.all = await r.json();
+  $("banner-count").textContent = state.all.length;
+  try {
+    const r2 = await fetch("videos/manifest.json");
+    if (r2.ok) {
+      const m = await r2.json();
+      state.localVideos = new Set(m.uids || []);
+    }
+  } catch (_) { /* no manifest → all iframes */ }
+  applyFilter();
+}
+
+function applyFilter() {
+  state.filtered = state.all.filter(x => {
+    if (state.domain === "all") return true;
+    return x.domains.includes(state.domain);
+  });
+  state.idx = 0;
+  populateUidSelect();
+  $("sample-counter").textContent = `/ ${state.filtered.length}`;
+  $("sample-input").max = Math.max(0, state.filtered.length - 1);
+  loadCurrent();
+}
+
+function populateUidSelect() {
+  const sel = $("uid-select");
+  sel.innerHTML = "";
+  state.filtered.forEach((x, i) => {
+    const opt = document.createElement("option");
+    opt.value = i;
+    const dom = x.domains.map(d => d[0].toUpperCase()).join("");
+    opt.textContent = `[${dom}] ${x.video_uid} · ${x.title.slice(0, 60)}`;
+    sel.appendChild(opt);
+  });
+}
+
+async function loadCurrent() {
+  if (state.filtered.length === 0) return;
+  const meta = state.filtered[state.idx];
+  $("sample-input").value = state.idx;
+  $("uid-select").value = state.idx;
+
+  if (!cache[meta.video_uid]) {
+    $("video-title").textContent = "loading…";
+    try {
+      const r = await fetch(`data/${meta.video_uid}.json`);
+      cache[meta.video_uid] = await r.json();
+    } catch (e) {
+      $("video-title").innerHTML = `<span class="error">failed: ${escape(e.message)}</span>`;
+      return;
+    }
+  }
+  render(cache[meta.video_uid]);
+}
+
+function render(d) {
+  const uid = d.video_uid;
+  const md = d.metadata || {};
+  const j = d.llm.judgement;
+
+  // Header / video — local mp4 if available + user preference, else YouTube iframe
+  $("video-uid").textContent = uid;
+  const hasLocal = state.localVideos.has(uid);
+  renderVideo(uid, hasLocal && state.useLocal, 0);
+  if (hasLocal) {
+    $("video-source-toggle").innerHTML = state.useLocal
+      ? `Playing local 144p mp4 · <a id="src-toggle">switch to YouTube</a>`
+      : `Playing YouTube · <a id="src-toggle">switch to local 144p mp4</a>`;
+    $("src-toggle").onclick = () => { state.useLocal = !state.useLocal; render(d); };
+  } else {
+    $("video-source-toggle").textContent = "YouTube only (no local mp4)";
+  }
+  $("video-title").textContent = md.title || "(no title)";
+  const dt = md.upload_date ? `${md.upload_date.slice(0,4)}-${md.upload_date.slice(4,6)}-${md.upload_date.slice(6,8)}` : "";
+  $("video-subtitle").innerHTML = [
+    `<a href="https://www.youtube.com/watch?v=${uid}" target="_blank">YouTube ↗</a>`,
+    `${d.duration}s`,
+    md.view_count ? `${md.view_count.toLocaleString()} views` : "",
+    md.like_count ? `${md.like_count.toLocaleString()} likes` : "",
+    dt,
+  ].filter(Boolean).join(" · ");
+
+  // LLM judgement card
+  $("llm-model").textContent = d.llm.model || "";
+  const domBadges = j.domains.filter(x => x !== "neither")
+    .map(x => `<span class="domain-badge ${x}">${x}</span>`).join(" ");
+  $("llm-content").innerHTML = `
+    <div class="field"><span class="good-badge">GOOD CANDIDATE</span> ${domBadges}</div>
+    <div class="field-grid">
+      <div class="field"><div class="field-label">Distinct events</div><div class="field-value">${j.num_distinct_events}</div></div>
+      <div class="field"><div class="field-label">Duration</div><div class="field-value">${d.duration}s</div></div>
+      <div class="field"><div class="field-label">Total tree nodes</div><div class="field-value">${(d.nodes || []).length}</div></div>
+    </div>
+    <div class="field"><div class="field-label">Reason</div><div class="field-value">${escape(j.reason || "")}</div></div>
+    <div class="field"><div class="field-label">Distinct event list (LLM-merged)</div>
+      <ol class="event-list">${j.distinct_event_list.map(e => `<li>${escape(e)}</li>`).join("")}</ol>
+    </div>
+  `;
+
+  // Prompt panel
+  $("prompt-system").textContent = d.llm.system_prompt || "";
+  $("prompt-user").textContent = d.llm.user_msg || "";
+  $("prompt-output").textContent = JSON.stringify(j, null, 2);
+
+  // Metadata panel
+  const desc = md.description || "";
+  const transcriptCount = Array.isArray(md.transcript) ? md.transcript.length : 0;
+  $("meta-content").innerHTML = `
+    <div class="field"><div class="field-label">Title</div><div class="field-value">${escape(md.title || "")}</div></div>
+    <div class="field"><div class="field-label">Description</div><div class="field-value ${desc ? "" : "muted"}">${escape(desc) || "(none)"}</div></div>
+    <div class="field-grid">
+      <div class="field"><div class="field-label">Views</div><div class="field-value">${(md.view_count || 0).toLocaleString()}</div></div>
+      <div class="field"><div class="field-label">Likes</div><div class="field-value">${(md.like_count || 0).toLocaleString()}</div></div>
+      <div class="field"><div class="field-label">Upload date</div><div class="field-value">${escape(dt) || "—"}</div></div>
+      <div class="field"><div class="field-label">Transcript lines</div><div class="field-value">${transcriptCount}</div></div>
+    </div>
+  `;
+
+  // Tree-of-Captions
+  const annotated = (d.nodes || []).filter(n => n.gpt != null);
+  $("tree-stats").textContent = `${annotated.length} GPT-annotated · ${(d.nodes || []).length} total`;
+  $("tree-content").innerHTML = renderTree(d.nodes || []);
+  bindTreeClicks();
+}
+
+function buildTree(nodes) {
+  const byId = {};
+  nodes.forEach(n => byId[n.node_id] = { ...n, children: [] });
+  let root = null;
+  Object.values(byId).forEach(n => {
+    if (n.parent_id && byId[n.parent_id]) byId[n.parent_id].children.push(n);
+    else root = n;
+  });
+  Object.values(byId).forEach(n => n.children.sort((a, b) => a.start - b.start));
+  return root;
+}
+
+function renderNode(n, depth) {
+  const gpt = n.gpt || {};
+  const action = (gpt.action || {}).brief || n.plm_action || "";
+  const summary = (gpt.summary || {}).brief || n.plm_caption || n.llama3_caption || "";
+  const hasAction = (gpt.action || {}).brief != null;
+  const cls = ["tree-segment"];
+  if (hasAction) cls.push("has-action");
+  if (depth === 1) cls.push("level-1");
+  if (depth === 2) cls.push("level-2");
+  const hasChildren = (n.children || []).length > 0;
+  const toggle = hasChildren ? (depth < 2 ? "▼" : "▶") : "·";
+  const collapsedClass = (hasChildren && depth >= 2) ? "tree-collapsed" : "";
+  const childrenMd = hasChildren
+    ? `<div class="tree-children">${n.children.map(c => renderNode(c, depth + 1)).join("")}</div>`
+    : "";
+  return `
+    <div class="${cls.join(" ")} ${collapsedClass}">
+      <div class="tree-segment-head" data-time="${n.start.toFixed(1)}">
+        <span class="tree-toggle">${toggle}</span>
+        <span class="tree-time">${fmtTime(n.start)}–${fmtTime(n.end)}</span>
+        <span class="tree-action">${escape(action || "(no action)")}</span>
+      </div>
+      ${summary ? `<div class="tree-caption">${escape(summary)}</div>` : ""}
+      ${childrenMd}
+    </div>
+  `;
+}
+
+function renderTree(nodes) {
+  if (!nodes.length) return "<div class='loading'>(no nodes)</div>";
+  const root = buildTree(nodes);
+  return root ? renderNode(root, 0) : "<div class='loading'>(no root)</div>";
+}
+
+function bindTreeClicks() {
+  document.querySelectorAll(".tree-segment-head").forEach(el => {
+    el.addEventListener("click", () => {
+      const seg = el.parentElement;
+      // toggle collapse for non-leaf
+      if (seg.querySelector(".tree-children")) {
+        seg.classList.toggle("tree-collapsed");
+        const tog = el.querySelector(".tree-toggle");
+        tog.textContent = seg.classList.contains("tree-collapsed") ? "▶" : "▼";
+      }
+      // seek video
+      const t = parseFloat(el.dataset.time || "0");
+      const uid = $("video-uid").textContent;
+      seekPlayer(uid, t);
+    });
+  });
+}
+
+// === Wire controls ===
+$("prev-btn").onclick = () => { if (state.idx > 0) { state.idx--; loadCurrent(); } };
+$("next-btn").onclick = () => { if (state.idx < state.filtered.length - 1) { state.idx++; loadCurrent(); } };
+$("sample-input").addEventListener("change", e => {
+  const v = Math.max(0, Math.min(state.filtered.length - 1, parseInt(e.target.value || "0")));
+  state.idx = v;
+  loadCurrent();
+});
+$("uid-select").addEventListener("change", e => {
+  state.idx = parseInt(e.target.value);
+  loadCurrent();
+});
+document.querySelectorAll("#filter-chips .chip").forEach(chip => {
+  chip.addEventListener("click", () => {
+    document.querySelectorAll("#filter-chips .chip").forEach(c => c.classList.remove("active"));
+    chip.classList.add("active");
+    state.domain = chip.dataset.domain;
+    applyFilter();
+  });
+});
+document.addEventListener("keydown", e => {
+  if (e.target.tagName === "INPUT" || e.target.tagName === "TEXTAREA") return;
+  if (e.key === "ArrowLeft") $("prev-btn").click();
+  else if (e.key === "ArrowRight") $("next-btn").click();
+});
+
+loadIndex();
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,1683 @@
+[
+  {
+    "video_uid": "_Pw1I1-SItE",
+    "duration": 300,
+    "title": "Smoked Haddock Kedgeree Recipe",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 10,
+    "reason": "The video belongs to the kitchen domain and contains more than 3 distinct cooking steps."
+  },
+  {
+    "video_uid": "gQ-VyTxUnKI",
+    "duration": 293,
+    "title": "How to make Jambalaya Creole Style",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 10,
+    "reason": "The video is a clear kitchen domain example with more than 3 distinct cooking steps."
+  },
+  {
+    "video_uid": "0x4xvDXhq2s",
+    "duration": 291,
+    "title": "Remoulade Sauce",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 10,
+    "reason": "The video belongs to the kitchen domain and contains more than 3 distinct cooking steps."
+  },
+  {
+    "video_uid": "ap8KnA30ttU",
+    "duration": 286,
+    "title": "Lamb Shanks in Red Wine - cooked in a Thermal cooker",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 10,
+    "reason": "The video belongs to the kitchen domain and contains more than 3 distinct cooking steps."
+  },
+  {
+    "video_uid": "tRadAJLsrmc",
+    "duration": 279,
+    "title": "How to Make the Best Chicken and Broccoli Chinese Stir Fry Recipe ~ Healthy Chinese Cooking",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 10,
+    "reason": "The video belongs to the kitchen domain and contains more than 3 distinct cooking steps."
+  },
+  {
+    "video_uid": "whFdeZY9r4s",
+    "duration": 269,
+    "title": "How to Make Potato Gratin - The Basics on QVC",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 10,
+    "reason": "The video belongs to the kitchen domain and contains more than 3 distinct cooking steps."
+  },
+  {
+    "video_uid": "WiLjnJgEc1I",
+    "duration": 226,
+    "title": "How to make tibetan changkol recipe tibetan rice wine sweet side dish",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 10,
+    "reason": "The video belongs to the kitchen domain and contains more than 3 distinct cooking steps."
+  },
+  {
+    "video_uid": "Ip6_qDPmOco",
+    "duration": 222,
+    "title": "ORANGE CHICKEN - Chinese Takeout at Home Miniseries",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 10,
+    "reason": "The video belongs to the kitchen domain and contains more than 3 distinct cooking steps."
+  },
+  {
+    "video_uid": "7uiN93Pmvs8",
+    "duration": 202,
+    "title": "How To Make Cock-A-Leekie Soup",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 10,
+    "reason": "The video belongs to the kitchen domain and contains more than 3 distinct cooking steps."
+  },
+  {
+    "video_uid": "bhdgtSurD0g",
+    "duration": 196,
+    "title": "Make cinnamon roll pancakes with help from Jenn Bare",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 10,
+    "reason": "The video belongs to the 'kitchen' domain and contains more than three distinct cooking steps."
+  },
+  {
+    "video_uid": "9qNWcWJHKOE",
+    "duration": 192,
+    "title": "Tomato & Ricotta Roulade - A delicious savoury vegetarian recipe",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 10,
+    "reason": "The video belongs to the kitchen domain and contains more than 3 distinct cooking steps."
+  },
+  {
+    "video_uid": "x4jmANmawa4",
+    "duration": 189,
+    "title": "How to cook with wine",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 10,
+    "reason": "The video belongs to the 'kitchen' domain and contains more than three distinct cooking steps."
+  },
+  {
+    "video_uid": "z0q_TobXRiA",
+    "duration": 285,
+    "title": "Tarte Au Chocolat (Chocolate Tart) recipe - Valentine's Day Special! - CookingWithAlia - Episode 229",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 9,
+    "reason": "The video belongs to the kitchen domain and contains more than three distinct cooking steps."
+  },
+  {
+    "video_uid": "mhM9-QTxdS0",
+    "duration": 283,
+    "title": "Individual mini Apple Pies",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 9,
+    "reason": "The video belongs to the kitchen domain and contains a multi-step recipe preparation process with more than three distinct events."
+  },
+  {
+    "video_uid": "SBQbpC1lzVo",
+    "duration": 253,
+    "title": "The Best Fried Buttermilk Onion Rings: Shane Lyons from Distilled",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 9,
+    "reason": "The video belongs to the kitchen domain and contains more than three distinct cooking steps."
+  },
+  {
+    "video_uid": "PZIUPqaqU-Q",
+    "duration": 237,
+    "title": "Strawberry shortcake",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 9,
+    "reason": "The video belongs to the kitchen domain and contains more than three distinct cooking steps."
+  },
+  {
+    "video_uid": "qCIX2XuzTgA",
+    "duration": 180,
+    "title": "Rosemary Potatoes",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 9,
+    "reason": "The video belongs to the kitchen domain and contains more than 3 distinct cooking steps."
+  },
+  {
+    "video_uid": "QIBmpMGWpho",
+    "duration": 300,
+    "title": "Easy No Bake Raw Vegan Cheesecake Recipe (FOOD Bites)",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 8,
+    "reason": "The video belongs to the kitchen domain and contains more than 3 distinct cooking steps."
+  },
+  {
+    "video_uid": "1oT0ElT_e9c",
+    "duration": 299,
+    "title": "How to Make Marshmallow S'mores",
+    "domains": [
+      "kitchen",
+      "manipulation"
+    ],
+    "num_events": 8,
+    "reason": "The video belongs to both the kitchen and manipulation domains and contains more than three distinct procedural steps."
+  },
+  {
+    "video_uid": "td-qHbdEV8k",
+    "duration": 293,
+    "title": "Chocolate Croissant Bread Pudding",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 8,
+    "reason": "The video belongs to the 'kitchen' domain and shows a multi-step cooking process with more than three distinct events."
+  },
+  {
+    "video_uid": "2fKWdFWQZ6E",
+    "duration": 286,
+    "title": "How to make the best tasting steak ever wagyu beef striploin!",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 8,
+    "reason": "The video belongs to the kitchen domain and contains more than three distinct cooking steps."
+  },
+  {
+    "video_uid": "BIIuJtYvr74",
+    "duration": 285,
+    "title": "Ragu Bolognese (Lentils Ragù)",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 8,
+    "reason": "The video belongs to the kitchen domain and shows a multi-step cooking process with more than three distinct events."
+  },
+  {
+    "video_uid": "W_-bCIqIH90",
+    "duration": 279,
+    "title": "Tortilla Pizza - Recipe - how to cook a pizza whenever you want! | GAF TRAVEL",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 8,
+    "reason": "The video belongs to the kitchen domain and contains more than three distinct cooking steps."
+  },
+  {
+    "video_uid": "CznhxXMT-dw",
+    "duration": 274,
+    "title": "Braised Macomber Turnip (or Rutabaga)",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 8,
+    "reason": "The video is a clear example of the 'kitchen' domain with a detailed multi-step cooking process."
+  },
+  {
+    "video_uid": "lFsaM8oClaQ",
+    "duration": 271,
+    "title": "Keto Waffles Recipe with Dr.Berg & Karen",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 8,
+    "reason": "The video is a good candidate as it belongs to the kitchen domain and contains multiple distinct cooking steps."
+  },
+  {
+    "video_uid": "T-qgA0gI2aM",
+    "duration": 269,
+    "title": "How To Make Persian Lamb Koobideh Kebab",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 8,
+    "reason": "The video belongs to the 'kitchen' domain and shows a multi-step procedure for making kebabs."
+  },
+  {
+    "video_uid": "baEeoYu00gQ",
+    "duration": 266,
+    "title": "How to Cook Rice | Indian Style Rice Recipe by Manjula Kitchen",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 8,
+    "reason": "The video belongs to the kitchen domain and contains more than three distinct cooking steps."
+  },
+  {
+    "video_uid": "C33v48ZFsbc",
+    "duration": 261,
+    "title": "Tandoori Chicken Pizza Recipe | How To Make Chicken Tandoori Pizza | Chicken Recipe | Varun Inamdar",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 8,
+    "reason": "The video belongs to the kitchen domain and contains more than 3 distinct cooking steps."
+  },
+  {
+    "video_uid": "Lez8OfdMg-o",
+    "duration": 256,
+    "title": "Reeses Peanut Butter Cup Martini - TheFNDC.com",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 8,
+    "reason": "The video belongs to the 'kitchen' domain as it involves a multi-step cocktail preparation process with 8 distinct events."
+  },
+  {
+    "video_uid": "SCEjXsZBIHM",
+    "duration": 251,
+    "title": "Nigella Lawson - Ed's Victorious Turkey Hash",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 8,
+    "reason": "The video belongs to the kitchen domain and contains more than three distinct cooking steps."
+  },
+  {
+    "video_uid": "DQkRQAitP7s",
+    "duration": 248,
+    "title": "Hannah Bronfman Makes Healthy Avocado Chocolate Mousse | Food Network",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 8,
+    "reason": "The video belongs to the kitchen domain and contains more than three distinct cooking steps."
+  },
+  {
+    "video_uid": "PksSQ0tvRGg",
+    "duration": 248,
+    "title": "Spicy Pepper Soup Recipe (Milagu Rasam)",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 8,
+    "reason": "The video belongs to the kitchen domain and shows a multi-step cooking process with more than three distinct events."
+  },
+  {
+    "video_uid": "BPD0wL4CPGo",
+    "duration": 244,
+    "title": "Cake pops de Brownie",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 8,
+    "reason": "The video belongs to the 'kitchen' domain and contains more than three distinct procedural steps in making cake pops."
+  },
+  {
+    "video_uid": "tGhRkndOjEg",
+    "duration": 242,
+    "title": "Christmas Holiday Treats : How to Make Eggnog",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 8,
+    "reason": "The video belongs to the kitchen domain and contains more than three distinct cooking steps."
+  },
+  {
+    "video_uid": "A1VJxXxqWzM",
+    "duration": 234,
+    "title": "My Favorite American Buttercream Recipe! (Vanilla and chocolate)",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 8,
+    "reason": "The video belongs to the kitchen domain and contains multiple distinct steps in preparing and decorating with buttercream."
+  },
+  {
+    "video_uid": "anXN_OmyHUU",
+    "duration": 234,
+    "title": "Ciao Italia 2004-r1305 Broccoli Rape with Olives",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 8,
+    "reason": "The video belongs to the kitchen domain and shows a multi-step cooking process with more than three distinct events."
+  },
+  {
+    "video_uid": "_-LO2i8YX9U",
+    "duration": 227,
+    "title": "RED VELVET CUPCAKE MILKSHAKE - The Scran Line",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 8,
+    "reason": "The video belongs to the kitchen domain and contains more than three distinct procedural steps in making a milkshake."
+  },
+  {
+    "video_uid": "x94QcfbTngc",
+    "duration": 226,
+    "title": "Bang Bang Shrimp",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 8,
+    "reason": "The video belongs to the 'kitchen' domain and shows a multi-step cooking process with more than three distinct events."
+  },
+  {
+    "video_uid": "Gp2kv8NxpE8",
+    "duration": 224,
+    "title": "Euro Cuisine Automatic Yogurt Maker",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 8,
+    "reason": "The video belongs to the 'kitchen' domain and shows a multi-step yogurt-making process with more than three distinct events."
+  },
+  {
+    "video_uid": "iMvWI7jonmg",
+    "duration": 223,
+    "title": "Roasted Figs With Honey & Ice Cream : Fig Recipes",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 8,
+    "reason": "The video belongs to the 'kitchen' domain and contains more than three distinct cooking steps."
+  },
+  {
+    "video_uid": "jvN_IWTqTcc",
+    "duration": 222,
+    "title": "Vegan Pepperoni Cheese Calzone (Trader Joes Pizza Dough)",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 8,
+    "reason": "The video belongs to the 'kitchen' domain and contains more than three distinct cooking steps."
+  },
+  {
+    "video_uid": "aHmo734HmVM",
+    "duration": 221,
+    "title": "Slow Cooker Southern Smothered Oxtails | I Heart Recipes",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 8,
+    "reason": "The video belongs to the kitchen domain and contains more than three distinct cooking steps."
+  },
+  {
+    "video_uid": "gm84PZ9QQS0",
+    "duration": 221,
+    "title": "How to Make Chipotle Chicken Tacos | Tacos",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 8,
+    "reason": "The video belongs to the 'kitchen' domain and contains more than 3 distinct cooking steps."
+  },
+  {
+    "video_uid": "w8AiP20y71U",
+    "duration": 218,
+    "title": "Snack idea: Parfait",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 8,
+    "reason": "The video belongs to the kitchen domain and shows a multi-step procedure for making a parfait."
+  },
+  {
+    "video_uid": "CthaI6CNIsU",
+    "duration": 217,
+    "title": "Baked Bramley Apples",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 8,
+    "reason": "The video belongs to the kitchen domain and contains more than three distinct cooking steps."
+  },
+  {
+    "video_uid": "K8DoB3oKGNg",
+    "duration": 216,
+    "title": "PG1000- Bacon Wrapped Hot Dogs with Baked Beans",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 8,
+    "reason": "The video belongs to the 'kitchen' domain and shows a multi-step cooking process with more than three distinct events."
+  },
+  {
+    "video_uid": "5IobkMzQQr0",
+    "duration": 202,
+    "title": "SamoaFood.com How to make Pai - Fruit Custard Pie",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 8,
+    "reason": "The video belongs to the kitchen domain and shows a multi-step process of making a fruit custard pie."
+  },
+  {
+    "video_uid": "AAsigxfXgOA",
+    "duration": 197,
+    "title": "COCONUT OIL BROWNIES (Dairy-Free)",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 8,
+    "reason": "The video belongs to the kitchen domain and contains a clear multi-step procedure for making brownies."
+  },
+  {
+    "video_uid": "yYVTiNPJA7c",
+    "duration": 191,
+    "title": "Easy Mangonada Recipe - how to make mangonada",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 8,
+    "reason": "The video belongs to the 'kitchen' domain and shows a multi-step procedure for making a mangonada."
+  },
+  {
+    "video_uid": "wkVfCXHkWog",
+    "duration": 190,
+    "title": "Cauliflower Buffalo Wings Recipe",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 8,
+    "reason": "The video belongs to the kitchen domain and contains more than 3 distinct cooking steps."
+  },
+  {
+    "video_uid": "f5GqyOzaYuw",
+    "duration": 188,
+    "title": "Grilled Coffee Crusted Rib Eye Steak & Lemon Roasted Asparagus Recipe",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 8,
+    "reason": "The video belongs to the kitchen domain and shows a multi-step cooking process with more than three distinct events."
+  },
+  {
+    "video_uid": "aSiiNsbEUrU",
+    "duration": 185,
+    "title": "Roasted Brussels Sprouts Recipe",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 8,
+    "reason": "The video belongs to the kitchen domain and contains more than three distinct cooking steps."
+  },
+  {
+    "video_uid": "NSBiYyHNlhE",
+    "duration": 184,
+    "title": "Rava Payasam",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 8,
+    "reason": "The video belongs to the 'kitchen' domain and shows a multi-step cooking process with more than three distinct events."
+  },
+  {
+    "video_uid": "kBfPkRN_vsQ",
+    "duration": 184,
+    "title": "How To: Make a Hot Toddy",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 8,
+    "reason": "The video belongs to the 'kitchen' domain and contains more than three distinct procedural steps in making a hot toddy."
+  },
+  {
+    "video_uid": "GfV93k932_Q",
+    "duration": 300,
+    "title": "Semolina & Date Cookies",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 7,
+    "reason": "The video belongs to the kitchen domain and contains more than three distinct cooking steps."
+  },
+  {
+    "video_uid": "-_ow-vw258c",
+    "duration": 289,
+    "title": "How to Make Homemade Coffee Creamer",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 7,
+    "reason": "The video belongs to the kitchen domain and contains more than three distinct procedural steps in making homemade coffee creamer."
+  },
+  {
+    "video_uid": "mq15BxBY_Tg",
+    "duration": 289,
+    "title": "10 Minute Vegan - Strawberry Sorbet",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 7,
+    "reason": "The video belongs to the 'kitchen' domain and contains more than three distinct procedural steps in making strawberry sorbet."
+  },
+  {
+    "video_uid": "0hdcgRv_xk4",
+    "duration": 283,
+    "title": "BLUE ICECREAM - How to make vegan blue icecream",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 7,
+    "reason": "The video belongs to the kitchen domain and contains more than three distinct procedural steps in making and presenting vegan blue ice cream."
+  },
+  {
+    "video_uid": "Fcyls_BxIIk",
+    "duration": 258,
+    "title": "How to Stuff a Thanksgiving Turkey| Williams-Sonoma",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 7,
+    "reason": "The video belongs to the kitchen domain and contains more than 3 distinct cooking steps."
+  },
+  {
+    "video_uid": "UQ1HxOOyfXo",
+    "duration": 240,
+    "title": "Healthy Lifestyle | How to Make Fruit Infused Water",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 7,
+    "reason": "The video belongs to the kitchen domain and contains more than three distinct procedural steps in preparing fruit-infused water."
+  },
+  {
+    "video_uid": "BwagvM_Uqb8",
+    "duration": 235,
+    "title": "No Bake Nutella Cheesecake | One Pot Chef",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 7,
+    "reason": "The video belongs to the kitchen domain and contains more than three distinct cooking steps."
+  },
+  {
+    "video_uid": "sPvk73m0pC0",
+    "duration": 230,
+    "title": "3 Ingredient Nutella Fudge Cake | One Pot Chef",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 7,
+    "reason": "The video belongs to the kitchen domain and contains more than three distinct cooking steps."
+  },
+  {
+    "video_uid": "Dwdm09VQEao",
+    "duration": 223,
+    "title": "Summer Ice Cube Tray hacks",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 7,
+    "reason": "The video belongs to the kitchen domain with multiple distinct ice cube preparation steps, making it a good candidate."
+  },
+  {
+    "video_uid": "4Tki_kxFJ9k",
+    "duration": 218,
+    "title": "Cucumber Soya Pancake (Healthy Breakfast) by Tarla Dalal",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 7,
+    "reason": "The video belongs to the kitchen domain and demonstrates a multi-step cooking process with more than three distinct events."
+  },
+  {
+    "video_uid": "bvPb3hDyMOI",
+    "duration": 212,
+    "title": "Parmesan Risotto Takes Time, but is Sooooo Worth it!",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 7,
+    "reason": "The video belongs to the kitchen domain and contains multiple distinct cooking steps, making it a good candidate."
+  },
+  {
+    "video_uid": "DGCVDkER9Oo",
+    "duration": 203,
+    "title": "Kim Snyder Rainforest Acai Berry Smoothie Recipe",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 7,
+    "reason": "The video belongs to the kitchen domain and contains more than three distinct procedural steps in making a smoothie."
+  },
+  {
+    "video_uid": "lBFVhaNkinY",
+    "duration": 289,
+    "title": "How to Prepare, Cook, and Store Beans",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 6,
+    "reason": "The video belongs to the kitchen domain and demonstrates a multi-step process of preparing, cooking, and storing beans."
+  },
+  {
+    "video_uid": "VYI9QCihtMA",
+    "duration": 284,
+    "title": "Banana chips recipe in Kannada || ಬಾಳೆಕಾಯಿ ಚಿಪ್ಸ್ || crispy banana chips || Kannada recipes",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 6,
+    "reason": "The video belongs to the kitchen domain and contains more than three distinct cooking steps."
+  },
+  {
+    "video_uid": "MM_xEdpesXc",
+    "duration": 281,
+    "title": "Cooking with Kids: How to Make Sugar Cookie Pizzas from Scratch - Weelicious",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 6,
+    "reason": "The video belongs to the kitchen domain and contains more than three distinct procedural steps."
+  },
+  {
+    "video_uid": "1kWgPkY9DBc",
+    "duration": 241,
+    "title": "Homemade Fig Jam",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 6,
+    "reason": "The video belongs to the kitchen domain and contains more than three distinct procedural steps in making fig jam."
+  },
+  {
+    "video_uid": "5j-TE7zg9yg",
+    "duration": 222,
+    "title": "Chicken Nuggets with Blackberry Mustard",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 6,
+    "reason": "The video belongs to the kitchen domain and shows a multi-step cooking process with more than three distinct events."
+  },
+  {
+    "video_uid": "o60o2NUVc7Q",
+    "duration": 214,
+    "title": "How to Make Evaporated Milk | Bold Baking Basics",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 6,
+    "reason": "The video belongs to the kitchen domain and contains more than three distinct procedural steps."
+  },
+  {
+    "video_uid": "s8ae_1chvh8",
+    "duration": 201,
+    "title": "Making a Yule Log Cake Recipe : Making Marzipan Mushroom Decorations for a Yule Log",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 6,
+    "reason": "The video belongs to the kitchen domain and contains more than three distinct procedural steps in making marzipan mushroom decorations."
+  },
+  {
+    "video_uid": "ylQlrVhDB5A",
+    "duration": 189,
+    "title": "How to Make Easy Crock Pot Roast Recipe in the Slow Cooker",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 6,
+    "reason": "The video belongs to the kitchen domain and demonstrates a multi-step cooking process with more than three distinct events."
+  },
+  {
+    "video_uid": "x2ujZV3Xdzw",
+    "duration": 180,
+    "title": "50 People Try to Mince Garlic | Epicurious",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 6,
+    "reason": "The video belongs to the kitchen domain and contains multiple distinct steps in preparing garlic paste."
+  },
+  {
+    "video_uid": "Pk9Ri238EW0",
+    "duration": 293,
+    "title": "David Thompson Thai Food - Red Curry Paste",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 5,
+    "reason": "The video belongs to the kitchen domain and shows a multi-step process of making red curry paste with more than 3 distinct events."
+  },
+  {
+    "video_uid": "4UxscnBS00o",
+    "duration": 249,
+    "title": "How to Make a Flavorful Italian Dressing",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 5,
+    "reason": "The video belongs to the kitchen domain and shows a multi-step procedure for making Italian dressing."
+  },
+  {
+    "video_uid": "GrfUw61zKpA",
+    "duration": 232,
+    "title": "How to make Korean BBQ @ Home",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 5,
+    "reason": "The video belongs to the kitchen domain and shows a multi-step cooking process with more than three distinct events."
+  },
+  {
+    "video_uid": "Fs2lLSy2tbY",
+    "duration": 201,
+    "title": "How Clean A Burned Pot Easy",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 5,
+    "reason": "The video belongs to the kitchen domain and shows a multi-step cleaning process with more than three distinct events."
+  },
+  {
+    "video_uid": "4UANPXRGgiM",
+    "duration": 191,
+    "title": "3 INGREDIENT FROZEN YOGURT POPSICLE RECIPE",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 5,
+    "reason": "The video belongs to the kitchen domain and shows a clear multi-step procedure for making frozen yogurt popsicles."
+  },
+  {
+    "video_uid": "W-iAPp5NxEY",
+    "duration": 189,
+    "title": "How to Make Lunch Meat Pinwheels : Quick Snacks & Kitchen Tips",
+    "domains": [
+      "kitchen"
+    ],
+    "num_events": 5,
+    "reason": "The video belongs to the kitchen domain and contains more than three distinct procedural steps in making lunch meat pinwheels."
+  },
+  {
+    "video_uid": "QVk_weKeRKs",
+    "duration": 241,
+    "title": "A Magnificent Penthouse on Madison Square Park | Open House TV",
+    "domains": [
+      "navigation"
+    ],
+    "num_events": 8,
+    "reason": "The video is a navigation domain as it involves a walkthrough of a penthouse, and it contains more than 3 distinct events."
+  },
+  {
+    "video_uid": "hdf6my9x47U",
+    "duration": 245,
+    "title": "5.Bay Parking Between 2 Cars",
+    "domains": [
+      "navigation"
+    ],
+    "num_events": 6,
+    "reason": "The video fits the 'navigation' domain with a clear multi-step parking procedure."
+  },
+  {
+    "video_uid": "Vrdqoxo3Cpg",
+    "duration": 202,
+    "title": "Early Spring Blossoms",
+    "domains": [
+      "navigation"
+    ],
+    "num_events": 6,
+    "reason": "The video matches the 'navigation' domain with a garden tour and contains more than 3 distinct events."
+  },
+  {
+    "video_uid": "u9n6IZbrAUc",
+    "duration": 240,
+    "title": "How to Replace the Seats & Springs in a Single Handle Faucet | Repair and Replace",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 12,
+    "reason": "The video belongs to the manipulation domain and contains more than 3 distinct procedural steps."
+  },
+  {
+    "video_uid": "eOQidfoWgtg",
+    "duration": 293,
+    "title": "How to Make Barbie Doll Clothes (Singlet) Easy.",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 10,
+    "reason": "The video belongs to the manipulation domain and contains more than 3 distinct procedural steps."
+  },
+  {
+    "video_uid": "xZjlCiTXK24",
+    "duration": 282,
+    "title": "sliced wood coasters",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 10,
+    "reason": "The video belongs to the manipulation domain and contains more than 3 distinct procedural steps."
+  },
+  {
+    "video_uid": "kVQHzlciXVg",
+    "duration": 281,
+    "title": "Equipment Inspection/Repair, Hyster 2.5 Ton Forklift.",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 10,
+    "reason": "The video involves detailed procedural manipulation of engine components, fitting the 'manipulation' domain, with more than 3 distinct events."
+  },
+  {
+    "video_uid": "VHiuB1SZ34U",
+    "duration": 260,
+    "title": "DIY PHONE Case/Holder/Stand/Wallet TUTORIAL! Works With ANY phone! MAGNETIC!",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 10,
+    "reason": "The video belongs to the manipulation domain and contains more than 3 distinct procedural steps."
+  },
+  {
+    "video_uid": "QOH9q7Pc6io",
+    "duration": 259,
+    "title": "How to make Beaded Hoop Earrings",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 10,
+    "reason": "The video belongs to the 'manipulation' domain and contains more than 3 distinct procedural steps in making beaded hoop earrings."
+  },
+  {
+    "video_uid": "QnuVAnUgxAU",
+    "duration": 231,
+    "title": "DIY Ankara Mini Circle Skirt!",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 10,
+    "reason": "The video belongs to the manipulation domain with a clear multi-step process of making a skirt, including measuring, cutting, sewing, and finishing."
+  },
+  {
+    "video_uid": "JjKKNsL0OwM",
+    "duration": 230,
+    "title": "Clogged Bathroom Sink Fix",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 10,
+    "reason": "The video involves a multi-step process of repairing a sink stopper, fitting the 'manipulation' domain with more than 3 distinct events."
+  },
+  {
+    "video_uid": "8ZedAH3ZdBI",
+    "duration": 226,
+    "title": "Foot switch for floor lamp",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 10,
+    "reason": "The video belongs to the manipulation domain and contains more than 3 distinct procedural steps."
+  },
+  {
+    "video_uid": "9zK5Mms7OMY",
+    "duration": 213,
+    "title": "DaAiTV_DaAi Headlines_20100921_Ripple effect of drip irrigation",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 10,
+    "reason": "The video belongs to the 'manipulation' domain with more than 3 distinct procedural steps related to irrigation system setup and operation."
+  },
+  {
+    "video_uid": "KaWTZbATUG8",
+    "duration": 213,
+    "title": "Tap Washer Replacement explanation video by Doust Plumbing",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 10,
+    "reason": "The video belongs to the manipulation domain and contains more than 3 distinct procedural steps."
+  },
+  {
+    "video_uid": "R0zVJv17qrI",
+    "duration": 213,
+    "title": "DIY Terrarium Craft for Kids: Make a Gnome Garden",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 10,
+    "reason": "The video belongs to the manipulation domain and contains more than 3 distinct procedural steps."
+  },
+  {
+    "video_uid": "BuPlcZuWhLU",
+    "duration": 195,
+    "title": "awning parts",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 10,
+    "reason": "The video involves detailed procedural manipulation tasks related to repairing and installing an RV awning, with more than 3 distinct events."
+  },
+  {
+    "video_uid": "E2Ik2LoPuBA",
+    "duration": 297,
+    "title": "How to build a fire pit.",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 9,
+    "reason": "The video clearly belongs to the 'manipulation' domain with a detailed multi-step process of building a fire pit."
+  },
+  {
+    "video_uid": "D85pOa5j5gA",
+    "duration": 299,
+    "title": "corset pattern tutorial 3 (BJD Dollfie Sewing)",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 8,
+    "reason": "The video involves detailed hand-object manipulation tasks related to sewing and pattern making, with more than three distinct procedural steps."
+  },
+  {
+    "video_uid": "08hq7zDuRFM",
+    "duration": 290,
+    "title": "DIY Old Skirt to Sailor-inspired Peplum Skirt",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 8,
+    "reason": "The video involves a multi-step process of transforming a skirt, fitting the 'manipulation' domain with more than 3 distinct events."
+  },
+  {
+    "video_uid": "TmvwEVlljMo",
+    "duration": 284,
+    "title": "DIY: Headphones Pouch Tutorial",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 8,
+    "reason": "The video belongs to the manipulation domain and contains more than three distinct procedural steps."
+  },
+  {
+    "video_uid": "Tqju09KukW4",
+    "duration": 280,
+    "title": "Bead Buddy One-Step Crimper Review",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 8,
+    "reason": "The video falls under the 'manipulation' domain with more than 3 distinct procedural steps related to jewelry assembly and tool use."
+  },
+  {
+    "video_uid": "fka-8fFB1cI",
+    "duration": 278,
+    "title": "How to Fix a Lens Loose Front Element - Quick and Easy",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 8,
+    "reason": "The video belongs to the manipulation domain and contains more than 3 distinct procedural steps."
+  },
+  {
+    "video_uid": "4VqstlvR3p8",
+    "duration": 277,
+    "title": "How To Make A Duct Tape Tri-Weave Wallet!!",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 8,
+    "reason": "The video involves a multi-step process of crafting a duct tape wallet, fitting the manipulation domain with more than 3 distinct events."
+  },
+  {
+    "video_uid": "3cS6Ww1lCVg",
+    "duration": 273,
+    "title": "MacBook Air keyboard replacement, removing rivets",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 8,
+    "reason": "The video belongs to the 'manipulation' domain and shows a multi-step procedure with more than 3 distinct events."
+  },
+  {
+    "video_uid": "GQRIpmHiwBs",
+    "duration": 270,
+    "title": "10 DIY gifts: Gift Idea 10: Homemade Sweater Mittens! Great Recycle Craft, cute too!",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 8,
+    "reason": "The video belongs to the manipulation domain and contains more than three distinct procedural steps in crafting mittens."
+  },
+  {
+    "video_uid": "K4EdLeUMDig",
+    "duration": 265,
+    "title": "Mobile Home Kool seal coating",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 8,
+    "reason": "The video belongs to the manipulation domain and contains more than three distinct procedural steps."
+  },
+  {
+    "video_uid": "jOfKWgfNKaE",
+    "duration": 265,
+    "title": "How to make a Fabric Strap watch - DIY Wrist Watch with Fabric Strap (Hindi)",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 8,
+    "reason": "The video belongs to the manipulation domain and contains more than three distinct procedural steps."
+  },
+  {
+    "video_uid": "Z-37OnNZpS4",
+    "duration": 261,
+    "title": "Traditional Origami Changing Faces Toy Tutorial",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 8,
+    "reason": "The video belongs to the manipulation domain and contains more than 3 distinct procedural steps in creating an origami toy."
+  },
+  {
+    "video_uid": "wYMJhpn6cYI",
+    "duration": 261,
+    "title": "How to add or change Hydraulic fluid on Floor Jack",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 8,
+    "reason": "The video belongs to the manipulation domain and contains more than three distinct procedural steps."
+  },
+  {
+    "video_uid": "a78rqqW2BVU",
+    "duration": 258,
+    "title": "Make Fun String Art using the Pegboard Frame from We R Memory Keepers",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 8,
+    "reason": "The video involves a multi-step crafting process with hand-object manipulation, fitting the 'manipulation' domain and having more than 3 distinct events."
+  },
+  {
+    "video_uid": "rjCXnQpp9XU",
+    "duration": 258,
+    "title": "Install a Fleximounts Overhead Storage Rack",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 8,
+    "reason": "The video belongs to the manipulation domain and contains more than 3 distinct procedural steps."
+  },
+  {
+    "video_uid": "XztMJV4ERBo",
+    "duration": 255,
+    "title": "Machine Knitted Decorative No-Roll Edge by Diana Sullivan",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 8,
+    "reason": "The video involves detailed hand-object manipulation with a knitting machine, showing a multi-step process to create a decorative edge."
+  },
+  {
+    "video_uid": "FJobe13qq9U",
+    "duration": 251,
+    "title": "Prepare Trees & Shrubs for Planting - Howard Garrett",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 8,
+    "reason": "The video belongs to the manipulation domain and contains multiple distinct procedural steps related to plant preparation and planting."
+  },
+  {
+    "video_uid": "zgN0g_pF910",
+    "duration": 246,
+    "title": "How To Grow Dragon Fruit (Pitaya) From Seeds",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 8,
+    "reason": "The video belongs to the manipulation domain and contains more than 3 distinct procedural steps."
+  },
+  {
+    "video_uid": "NWlHWgAWFE8",
+    "duration": 241,
+    "title": "Using native ground cover in your garden",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 8,
+    "reason": "The video falls under the manipulation domain with more than 3 distinct procedural steps in gardening."
+  },
+  {
+    "video_uid": "uvHthOQuN44",
+    "duration": 238,
+    "title": "How to Grow Herbs in Containers Indoors Cilantro, Basil, Oregano & Parsley",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 8,
+    "reason": "The video involves a multi-step process of planting herbs indoors, fitting the manipulation domain with more than 3 distinct events."
+  },
+  {
+    "video_uid": "1M5uNc8RzGg",
+    "duration": 235,
+    "title": "How to hide TV cables in the wall - low voltage HDMI CAT5 & Speaker wires",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 8,
+    "reason": "The video belongs to the manipulation domain and contains more than three distinct procedural steps."
+  },
+  {
+    "video_uid": "iluOswaVEd4",
+    "duration": 235,
+    "title": "RV Water Softener Install",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 8,
+    "reason": "The video belongs to the manipulation domain and contains multiple distinct procedural steps related to installing a water softener."
+  },
+  {
+    "video_uid": "ouxbxE-BMNY",
+    "duration": 223,
+    "title": "Replacing freeze plugs",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 8,
+    "reason": "The video belongs to the manipulation domain and contains multiple distinct procedural steps related to replacing freeze plugs."
+  },
+  {
+    "video_uid": "Ajqn03kEF6E",
+    "duration": 217,
+    "title": "Nespresso U: How To - Descaling (models with serial numbers above 13142)",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 8,
+    "reason": "The video involves a multi-step process of descaling a coffee machine, fitting the 'manipulation' domain with more than three distinct events."
+  },
+  {
+    "video_uid": "w3gLnw81zGM",
+    "duration": 211,
+    "title": "How to build a model railway - lift out sections",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 8,
+    "reason": "The video falls under the manipulation domain with more than 3 distinct procedural steps in assembling and operating a model railway."
+  },
+  {
+    "video_uid": "NpR28_VT0CY",
+    "duration": 209,
+    "title": "How to Fix a Leaking Sunroof Drain and Wet Floors in 2006 Volvo S40",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 8,
+    "reason": "The video belongs to the manipulation domain and contains more than 3 distinct procedural steps."
+  },
+  {
+    "video_uid": "LdLCt64V-64",
+    "duration": 208,
+    "title": "Removing a Stubborn Brake Drum from a 1995 Chevy K-2500 8600 GVW Pick-up",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 8,
+    "reason": "The video belongs to the manipulation domain and contains multiple distinct procedural steps in removing a brake drum."
+  },
+  {
+    "video_uid": "UesBiN7Vg1M",
+    "duration": 207,
+    "title": "pistolet a peinture pneumatique parkside lidl air comprimé pdfp 500 air paint spray gun",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 8,
+    "reason": "The video belongs to the manipulation domain and contains more than 3 distinct procedural steps."
+  },
+  {
+    "video_uid": "hqPga8q5Wxs",
+    "duration": 207,
+    "title": "1996 Nissan Altima Crank Seal Replacement",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 8,
+    "reason": "The video belongs to the manipulation domain and contains more than 3 distinct procedural steps."
+  },
+  {
+    "video_uid": "xS-g68RVWqg",
+    "duration": 206,
+    "title": "How to earth your electric fence | Stafix",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 8,
+    "reason": "The video belongs to the manipulation domain and contains multiple distinct procedural steps related to installing and securing an electric fence."
+  },
+  {
+    "video_uid": "5coir9DqTB8",
+    "duration": 205,
+    "title": "Origami - How To Make An Origami Fox",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 8,
+    "reason": "The video belongs to the manipulation domain and contains more than 3 distinct procedural steps in making an origami fox."
+  },
+  {
+    "video_uid": "leMmcuL5pp0",
+    "duration": 204,
+    "title": "How to Make A Denim Hooded Jacket",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 8,
+    "reason": "The video involves detailed hand-object manipulation tasks in making a denim hooded jacket, with more than three distinct procedural steps."
+  },
+  {
+    "video_uid": "Lr47ikWa5ZU",
+    "duration": 194,
+    "title": "Chevy Avalanche Replacement Remote Programming 2002 2006",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 8,
+    "reason": "The video belongs to the 'manipulation' domain and contains more than 3 distinct procedural steps."
+  },
+  {
+    "video_uid": "wzbxdpKrRfs",
+    "duration": 191,
+    "title": "how to make a dry ice bomb (3 different ones)",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 8,
+    "reason": "The video involves manipulation of objects to create dry ice bombs, with more than three distinct procedural steps."
+  },
+  {
+    "video_uid": "i3Jhbz4mVKw",
+    "duration": 188,
+    "title": "Bench bleed, master cylinder, rat rod",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 8,
+    "reason": "The video involves detailed procedural manipulation tasks related to brake bleeding and engine maintenance, with more than three distinct events."
+  },
+  {
+    "video_uid": "Tt-X9OupsOo",
+    "duration": 183,
+    "title": "How To Overseed A Lawn",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 8,
+    "reason": "The video fits the 'manipulation' domain with a clear multi-step lawn care procedure."
+  },
+  {
+    "video_uid": "K1lZFglHW_Q",
+    "duration": 296,
+    "title": "HOW TO DRILL GLASS.wmv",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 7,
+    "reason": "The video belongs to the manipulation domain and contains multiple distinct procedural steps related to drilling and handling materials."
+  },
+  {
+    "video_uid": "MACJU7aedZ8",
+    "duration": 255,
+    "title": "Easy & Affordable DIY Sweaters",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 7,
+    "reason": "The video involves multiple distinct hand-object manipulation tasks related to DIY sweater customization, fitting the 'manipulation' domain with more than 3 distinct events."
+  },
+  {
+    "video_uid": "y6mYT2QgbOk",
+    "duration": 227,
+    "title": "DIY Home Decor|Paper Cups Light Garland",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 7,
+    "reason": "The video involves a multi-step crafting process with clear hand-object manipulation, making it a good candidate for the manipulation domain."
+  },
+  {
+    "video_uid": "9tzXO9A8T2A",
+    "duration": 226,
+    "title": "Multicolor Hot Glue Gun CRAFT HACK - HGTV Handmade",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 7,
+    "reason": "The video belongs to the manipulation domain and contains more than 3 distinct procedural steps."
+  },
+  {
+    "video_uid": "7bdksWuXLEY",
+    "duration": 219,
+    "title": "Indy request - duct tape bracelets",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 7,
+    "reason": "The video belongs to the manipulation domain and contains more than three distinct procedural steps."
+  },
+  {
+    "video_uid": "S77te5xuja0",
+    "duration": 188,
+    "title": "Filtering and Finishing Maple Syrup",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 7,
+    "reason": "The video belongs to the manipulation domain and contains multiple distinct procedural steps related to filtering and testing maple syrup."
+  },
+  {
+    "video_uid": "qaw4uKJV2BA",
+    "duration": 186,
+    "title": "RECON LED Dome Light Installation How-To",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 7,
+    "reason": "The video belongs to the 'manipulation' domain and contains more than 3 distinct procedural steps."
+  },
+  {
+    "video_uid": "Un5n7UvFEnE",
+    "duration": 295,
+    "title": "DIY Z Gallerie Glitter Painting Dupe",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 6,
+    "reason": "The video belongs to the 'manipulation' domain with more than 3 distinct procedural steps, making it a good candidate."
+  },
+  {
+    "video_uid": "GUfeynjjIes",
+    "duration": 287,
+    "title": "Tunisian Crochet: Binding Off (Left Handed)",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 6,
+    "reason": "The video belongs to the manipulation domain and contains more than three distinct procedural steps related to crochet techniques."
+  },
+  {
+    "video_uid": "MYZczJGkjI4",
+    "duration": 272,
+    "title": "How To: Microfiber Towel Folding Trick | Masterson's Car Care | Best Microfiber Towels",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 6,
+    "reason": "The video falls under the manipulation domain with more than three distinct procedural steps related to towel folding and car detailing."
+  },
+  {
+    "video_uid": "9zhIukqeE0w",
+    "duration": 246,
+    "title": "Remove Lamination , Delimitation Document",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 6,
+    "reason": "The video falls under the manipulation domain with more than three distinct procedural steps related to lamination and de-lamination."
+  },
+  {
+    "video_uid": "qgl0oNb6ylA",
+    "duration": 244,
+    "title": "❤️ DIY Glitter Wire Heart Photo Holder",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 6,
+    "reason": "The video falls under the manipulation domain with more than 3 distinct procedural steps, making it a good candidate."
+  },
+  {
+    "video_uid": "lGwraDTITcg",
+    "duration": 235,
+    "title": "Using Dupli-Color Metal Specks for a Retro Car Paint Look",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 6,
+    "reason": "The video belongs to the manipulation domain and shows a multi-step process of preparing and painting a helmet."
+  },
+  {
+    "video_uid": "Llih527STns",
+    "duration": 233,
+    "title": "DIY: Faux Beaded Curtains ♡ Theeasydiy #HalloweenHorror",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 6,
+    "reason": "The video involves a multi-step DIY craft project with clear hand-object manipulation tasks, making it a good candidate for the manipulation domain."
+  },
+  {
+    "video_uid": "asYWrWAa1mk",
+    "duration": 229,
+    "title": "how to put strings on an acoustic guitar",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 6,
+    "reason": "The video belongs to the 'manipulation' domain as it involves a detailed procedure of replacing guitar strings, and it includes more than three distinct events."
+  },
+  {
+    "video_uid": "vd6t9tV0JvY",
+    "duration": 222,
+    "title": "Planting wasabi seeds",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 6,
+    "reason": "The video belongs to the manipulation domain and contains more than three distinct procedural steps."
+  },
+  {
+    "video_uid": "Y6ObvqyT_xs",
+    "duration": 215,
+    "title": "Making wire wraps from soda straws.",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 6,
+    "reason": "The video belongs to the manipulation domain and contains more than three distinct procedural steps."
+  },
+  {
+    "video_uid": "If03f-lDgc0",
+    "duration": 214,
+    "title": "How to Knit an Angels & Hearts Baby Blanket - PART 1 - Introduction",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 6,
+    "reason": "The video involves knitting, a clear manipulation task, and includes more than three distinct procedural steps."
+  },
+  {
+    "video_uid": "LAgAFgszWvc",
+    "duration": 204,
+    "title": "DIY Garage Door Windows",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 6,
+    "reason": "The video involves a multi-step DIY project with clear hand-object manipulation tasks, fitting the 'manipulation' domain."
+  },
+  {
+    "video_uid": "Z1By27YKZwo",
+    "duration": 199,
+    "title": "How to tape the knob of your hockey stick",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 6,
+    "reason": "The video involves a multi-step manipulation task of taping a hockey stick knob, matching the 'manipulation' domain with more than 3 distinct events."
+  },
+  {
+    "video_uid": "Ij24aT_3oSY",
+    "duration": 196,
+    "title": "Remove Rear View Mirror Button And Glue From A Windshield",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 6,
+    "reason": "The video involves a multi-step manipulation task of removing a rear-view mirror button and glue from a windshield, matching the 'manipulation' domain with more than 3 distinct events."
+  },
+  {
+    "video_uid": "dwBZppEZ2Ig",
+    "duration": 194,
+    "title": "How to batik watermark denim | Nik Scott",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 6,
+    "reason": "The video belongs to the 'manipulation' domain with a clear multi-step process of creating a batik watermark on denim."
+  },
+  {
+    "video_uid": "rLFUEOJcgfE",
+    "duration": 189,
+    "title": "how to: 4 strand round braid sling",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 6,
+    "reason": "The video belongs to the manipulation domain and shows a multi-step braiding process with more than three distinct events."
+  },
+  {
+    "video_uid": "ZuL_HQfYJkE",
+    "duration": 250,
+    "title": "How to remove tiles",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 5,
+    "reason": "The video belongs to the 'manipulation' domain and shows a multi-step procedure for removing tiles and plaster."
+  },
+  {
+    "video_uid": "OKzD8MVw_GQ",
+    "duration": 247,
+    "title": "Half Cross stitch in needlepoint / canvaswork embroidery | Needlepoint stitches video tutorial",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 5,
+    "reason": "The video falls under the 'manipulation' domain with more than 3 distinct procedural steps related to needlepoint stitching."
+  },
+  {
+    "video_uid": "-P30ESZQL2A",
+    "duration": 246,
+    "title": "How To Soften New Dickies Pants | How To Make Pants Soft",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 5,
+    "reason": "The video involves manipulation tasks like preparing a brine mixture and soaking pants, with more than 3 distinct events."
+  },
+  {
+    "video_uid": "bTmR8Q7TU7A",
+    "duration": 233,
+    "title": "Minecraft Birthday: how to make creeper decoration",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 5,
+    "reason": "The video involves manipulation of boxes to create a decoration, with more than three distinct procedural steps."
+  },
+  {
+    "video_uid": "SCWrTb_2Kpg",
+    "duration": 215,
+    "title": "First Alert Explosive Gas and Carbon Monoxide Alarm explanation and un-boxing video",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 5,
+    "reason": "The video involves manipulation tasks like replacing batteries and testing an alarm, with more than 3 distinct events."
+  },
+  {
+    "video_uid": "kU_tVqWqbXA",
+    "duration": 203,
+    "title": "NTONPOWER Power Strip Surge Protector -  Review",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 5,
+    "reason": "The video involves manipulation of a power strip with multiple distinct steps, fitting the 'manipulation' domain with more than 3 distinct events."
+  },
+  {
+    "video_uid": "RsFGoETBNy4",
+    "duration": 201,
+    "title": "DIY Dream Desk Setup - Clean Modern Wood Design",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 5,
+    "reason": "The video involves manipulation tasks like adjusting desk height and monitor, and has more than 3 distinct events."
+  },
+  {
+    "video_uid": "og7g8yYXnR4",
+    "duration": 198,
+    "title": "Heather's Hacks: How to Clean Your Glasses/Sunglasses | Heather Pickles",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 5,
+    "reason": "The video belongs to the 'manipulation' domain and contains more than three distinct procedural steps for cleaning glasses."
+  },
+  {
+    "video_uid": "TmWtAhDNYgk",
+    "duration": 186,
+    "title": "Oil Painting Time Lapse | \"Dwindle\"",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 5,
+    "reason": "The video belongs to the manipulation domain with more than 3 distinct painting-related events."
+  },
+  {
+    "video_uid": "TkjN6aN1wSQ",
+    "duration": 185,
+    "title": "How to finish off attic space",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 5,
+    "reason": "The video belongs to the manipulation domain with more than 3 distinct procedural steps."
+  },
+  {
+    "video_uid": "LoMd_8-ykmI",
+    "duration": 183,
+    "title": "How to remove pen, pencil, crayon marks from wall | മലയാളം | Ash corner|",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 5,
+    "reason": "The video belongs to the manipulation domain and contains more than three distinct procedural steps."
+  },
+  {
+    "video_uid": "hn5BXeTVqYI",
+    "duration": 182,
+    "title": "HOW TO ORGANIZE YOUR COIN COLLECTION - COIN TIPS",
+    "domains": [
+      "manipulation"
+    ],
+    "num_events": 5,
+    "reason": "The video fits the 'manipulation' domain with multiple distinct steps on organizing a coin collection."
+  }
+]

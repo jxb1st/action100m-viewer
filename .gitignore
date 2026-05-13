@@ -1,0 +1,12 @@
+# tooling
+__pycache__/
+*.pyc
+
+# yt-dlp intermediate
+videos/*.part
+videos/*.ytdl
+videos/*.f???.mp4
+videos/*.f???.m4a
+
+# manifest is generated at commit time; keep download_subset / download_manifest for reproducibility
+download_manifest.json
